@@ -1,0 +1,43 @@
+/* header */
+.header {
+	padding: 2rem 0 0;
+	&__in {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 0 3.25rem;
+		}
+	&__logo {
+		display: block;
+		color: var(--primary-text-color);
+		font-size: 2rem;
+		font-family: var(--secondary-font-family);
+		line-height: 1.9375rem;
+		}
+	&__col {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 0 1.875rem;
+		flex-grow: 1;
+		}
+	&__main-nav {
+		ul {
+			display: flex;
+			align-items: center;
+			gap: 0 2.5rem;
+			}
+		li {
+			font-size: 1.25rem;
+			line-height: 1.25rem;
+			}
+		}
+	.link {
+		margin: -0.3125rem 0 0;
+		}
+	}
+
+/* menu-btn */
+.menu-btn {
+	display: none;
+	}

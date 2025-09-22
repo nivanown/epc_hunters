@@ -1,0 +1,99 @@
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  }
+
+ul[class],
+ol[class] {
+  list-style: none;
+  }
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
+  }
+
+a:focus,
+a:hover,
+a:active { 
+  outline: none !important;
+  }
+
+button { 
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  border: 0;
+  background: none;
+  border-radius: 0;
+  }
+
+button:focus,
+button:hover,
+button:active { 
+  outline: none !important;
+  }
+
+img, 
+svg {
+  display: block;
+  vertical-align: top;
+  max-width: 100%;
+  }
+
+article > * + * {
+  margin-top: 1em;
+  }
+
+fieldset { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  }
+
+input:focus,
+input:hover,
+input:active,
+textarea:focus,
+textarea:hover,
+textarea:active { 
+  outline: none !important;
+  }
+
+iframe { vertical-align: top; }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+  }
